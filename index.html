@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="view">
+            <img src="images\Pokemon-Symbol.jpg" alt="pokemonSprite" id="ps" >
+            <div class="in">
+                <input type="text" id="pname" placeholder="enter pokemon name">
+                <button onclick="pFetch()">fetch pokemon</button>
+            </div>
+            
+            <div class="outimg" >
+                <img src="" alt="pokemonSprite" id="pokemonSprite" style="display: none;">
+            </div>
+            <div class="outtext">
+                <p id="ppname"></p>
+                <p id="type"></p>
+            </div>
+        
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="callbacks.js"></script>
+</body>
+</html>
