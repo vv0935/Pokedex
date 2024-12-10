@@ -9,7 +9,8 @@ A simple web app that allows you to search for Pokémon by name and fetch their 
 - Displays the Pokémon's name, type, and an image.
 - Handles invalid inputs gracefully.
 
-![Project Screenshot](images/project-screenshot.png)  <!-- Replace with your actual image path -->
+![Project Screenshot](![image](https://github.com/user-attachments/assets/9417d394-e5b7-4be9-a5d6-0e8c67165287)
+)  <!-- Replace with your actual image path -->
 
 ## Technologies Used
 
