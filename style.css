@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    
+}
+
+.container{
+    height:90vh;
+    display: flex;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view{
+    height:75vh;
+    width:50vh;
+    background-color: red;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+#ps{
+    width: 100px;
+    height: 40px;
+}
+.in{
+    flex-basis: 100%;
+    margin-top: 10px;
+}
+
+.outimg{
+    height: 50%;
+    width: 80%;
+    background-color:white;
+    border: 1rem solid gainsboro;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.outtext{
+    color: white;
+    height: 20%;
+    width: 80%;
+    background-color:blue;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#pokemonSprite{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
